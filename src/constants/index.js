@@ -25,21 +25,21 @@ export const features = [
     icon: star,
     title: "Latest Technologies",
     content:
-      "We continously update our projects and release new videos so you're up to date with the latest updates."
+      "New Content Every Week"
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "Beginner to Advanced Level",
+    title: "100/ 100",
     content:
-      "We start with basic HTML, CSS and Vanilla JavaScript then progress into more modern JavaScript such as REACT.JS",
+      "100 days or 100 hours just keep coding",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Abosolutly Free ",
+    title: "Built for Success",
     content:
-      "We don't charge for anything, our projects will give you the knowledge to feel like an expert",
+      "We will push you forward",
   },
 ];
 
