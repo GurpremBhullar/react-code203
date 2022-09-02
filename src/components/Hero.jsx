@@ -1,6 +1,6 @@
 import styles from'../style';
-import {  discount } from '../assets';
 import GetStarted from './GetStarted'
+import Youtube from '../assets/Youtube.png'
 import Fav from '../assets/favpng.png'
 
 const Hero = () => (
@@ -8,8 +8,7 @@ const Hero = () => (
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px`}>
         <div className='flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2'>
-          <img src={discount} alt="discount" 
-          className='w-[32px] h-[32px]'/>
+          <img src={Youtube} alt="Youtube" className='w-[30px] h-[30px]'/>
           <p className={`${styles.paragraph} ml-2`}>
           <span className='text-white'>SUBSCRIBE</span> to our channel {" "}
           <span className='text-white'>and</span> become part of a new community 
